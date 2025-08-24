@@ -1,6 +1,6 @@
 
 import type { Config } from "tailwindcss";
-
+import animate from "tailwindcss-animate";
 export default {
 	darkMode: ["class"],
 	content: [
@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-                polkadot: {
+                AFJPCripto: {
                     pink: '#E6007A',
                     purple: '#6D3AEE',
                     cyan: '#00B2FF',
@@ -109,10 +109,10 @@ export default {
                 'float': 'float 6s ease-in-out infinite',
 			},
             backgroundImage: {
-                'polkadot-gradient': 'linear-gradient(to right, #E6007A, #6D3AEE)',
-                'polkadot-gradient-vertical': 'linear-gradient(to bottom, #E6007A, #6D3AEE)',
+                'AFJPCripto-gradient': 'linear-gradient(to right, #E6007A, #6D3AEE)',
+                'AFJPCripto-gradient-vertical': 'linear-gradient(to bottom, #E6007A, #6D3AEE)',
             }
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [animate],
 } satisfies Config;
