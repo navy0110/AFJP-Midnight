@@ -12,7 +12,7 @@ const Header: React.FC = () => {
     <header className="w-full py-4 px-4 md:px-6 border-b backdrop-blur-sm bg-background/80 sticky top-0 z-50">
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-polkadot-gradient"></div>
+          <div className="h-8 w-8 rounded-full bg-AFJP-gradient"></div>
           <span className="font-bold text-xl md:text-2xl">AFJP Cripto</span>
         </div>
         
@@ -34,8 +34,8 @@ const Header: React.FC = () => {
             </SelectContent>
           </Select>
           
-          <Button className="bg-polkadot-gradient hover:opacity-90 transition-opacity">
-            {t('header.learn-more')}
+          <Button className="bg-AFJPCripto-gradient hover:opacity-90 transition-opacity">
+            {t('Log out')}
           </Button>
         </div>
       </div>
