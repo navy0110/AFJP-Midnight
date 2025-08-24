@@ -48,7 +48,7 @@ const AdvantagesSection: React.FC = () => {
           {advantages.map((item, index) => (
             <Card key={index} className="glass-card p-6 border-border/50 hover:border-primary/50 transition-all">
               <div className="flex items-start gap-4">
-                <div className="mt-1 text-polkadot-pink">
+                <div className="mt-1 text-AFJPCripto-pink">
                   <CheckCircle size={20} />
                 </div>
                 <div>
