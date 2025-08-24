@@ -8,11 +8,7 @@ export interface LanguageContextProps {
 
 const translations = {
   en: {
-    // Header Navigation
-    'header.why-polkadot': 'Why Polkadot',
-    'header.advantages': 'Advantages',
-    'header.presentation': 'Presentation',
-    'header.learn-more': 'Learn More',
+
     
     // Navigation
     'nav.home': 'Home',
@@ -190,47 +186,11 @@ const translations = {
     'form.send-request': 'Send Request',
     
     // Footer
-    'footer.links': 'Quick Links',
-    'footer.resources': 'Resources',
-    'footer.official-polkadot': 'Official Polkadot',
-    'footer.documentation': 'Documentation',
-    'footer.explorer': 'Block Explorer',
+
     'footer.rights': '© 2024 AFJP Cripto. All rights reserved.',
     
-    // Why Polkadot Section
-    'why-polkadot.title': 'Why choose',
-    'why-polkadot.subtitle': 'Discover the advantages of building our retirement fund on the most advanced blockchain ecosystem',
-    'why-polkadot.interoperability': 'Interoperability',
-    'why-polkadot.interoperability-desc': 'Connect with multiple blockchains and financial systems seamlessly',
-    'why-polkadot.scalability': 'Scalability',
-    'why-polkadot.scalability-desc': 'Process thousands of transactions per second with minimal fees',
-    'why-polkadot.security': 'Security',
-    'why-polkadot.security-desc': 'Shared security model protects all connected parachains',
-    'why-polkadot.governance': 'Governance',
-    'why-polkadot.governance-desc': 'Democratic governance system for protocol upgrades and decisions',
-    
-    // Advantages Section
-    'advantages.title': 'Competitive Advantages',
-    'advantages.subtitle': 'Why AFJP is the best choice for your blockchain-based retirement',
-    'advantages.dedicated-parachain': 'Dedicated Parachain',
-    'advantages.dedicated-desc': 'Our own blockchain optimized for retirement fund operations',
-    'advantages.tokenized-assets': 'Tokenized Real Assets',
-    'advantages.tokenized-desc': 'Real estate and traditional assets represented as blockchain tokens',
-    'advantages.institutional-security': 'Institutional Security',
-    'advantages.institutional-desc': 'Bank-level security with blockchain transparency',
-    'advantages.continuous-evolution': 'Continuous Evolution',
-    'advantages.continuous-desc': 'Regular updates and improvements without service interruption',
-    'advantages.defi-ecosystem': 'DeFi Ecosystem',
-    'advantages.defi-desc': 'Access to decentralized finance tools and yield opportunities',
-    'advantages.long-term-resistance': 'Long-term Resistance',
-    'advantages.long-term-desc': 'Built to last decades with evolving technology standards',
   },
   es: {
-    // Header Navigation
-    'header.why-polkadot': 'Por qué Polkadot',
-    'header.advantages': 'Ventajas',
-    'header.presentation': 'Presentación',
-    'header.learn-more': 'Saber Más',
     
     // Navigation
     'nav.home': 'Inicio',
@@ -408,40 +368,8 @@ const translations = {
     'form.send-request': 'Enviar Solicitud',
     
     // Footer
-    'footer.links': 'Enlaces Rápidos',
-    'footer.resources': 'Recursos',
-    'footer.official-polkadot': 'Polkadot Oficial',
-    'footer.documentation': 'Documentación',
-    'footer.explorer': 'Explorador de Bloques',
     'footer.rights': '© 2024 AFJP Cripto. Todos los derechos reservados.',
     
-    // Why Polkadot Section
-    'why-polkadot.title': 'Por qué elegir',
-    'why-polkadot.subtitle': 'Descubre las ventajas de construir nuestro fondo de jubilación en el ecosistema blockchain más avanzado',
-    'why-polkadot.interoperability': 'Interoperabilidad',
-    'why-polkadot.interoperability-desc': 'Conecta con múltiples blockchains y sistemas financieros sin problemas',
-    'why-polkadot.scalability': 'Escalabilidad',
-    'why-polkadot.scalability-desc': 'Procesa miles de transacciones por segundo con tarifas mínimas',
-    'why-polkadot.security': 'Seguridad',
-    'why-polkadot.security-desc': 'Modelo de seguridad compartida protege todas las parachains conectadas',
-    'why-polkadot.governance': 'Gobernanza',
-    'why-polkadot.governance-desc': 'Sistema de gobernanza democrática para actualizaciones y decisiones del protocolo',
-    
-    // Advantages Section
-    'advantages.title': 'Ventajas Competitivas',
-    'advantages.subtitle': 'Por qué AFJP es la mejor opción para tu jubilación basada en blockchain',
-    'advantages.dedicated-parachain': 'Parachain Dedicada',
-    'advantages.dedicated-desc': 'Nuestra propia blockchain optimizada para operaciones de fondos de jubilación',
-    'advantages.tokenized-assets': 'Activos Reales Tokenizados',
-    'advantages.tokenized-desc': 'Bienes raíces y activos tradicionales representados como tokens blockchain',
-    'advantages.institutional-security': 'Seguridad Institucional',
-    'advantages.institutional-desc': 'Seguridad a nivel bancario con transparencia blockchain',
-    'advantages.continuous-evolution': 'Evolución Continua',
-    'advantages.continuous-desc': 'Actualizaciones y mejoras regulares sin interrupción del servicio',
-    'advantages.defi-ecosystem': 'Ecosistema DeFi',
-    'advantages.defi-desc': 'Acceso a herramientas de finanzas descentralizadas y oportunidades de rendimiento',
-    'advantages.long-term-resistance': 'Resistencia a Largo Plazo',
-    'advantages.long-term-desc': 'Construido para durar décadas con estándares tecnológicos en evolución',
   }
 };
 
